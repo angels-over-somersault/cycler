@@ -6,10 +6,10 @@
     <title>MyProject</title>
 </head>
 <body>
-    First Section
     <br>
-    <%- body %> 
+    <%- include('../partials/header.ejs') %>
+    <%- body %>
+    <%- include('../partials/errorMessage.ejs') %> 
     <br>
-    Last Section
 </body>
 </html>
